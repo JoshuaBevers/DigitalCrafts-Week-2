@@ -2,7 +2,7 @@ class Car:
     def __init__(self, make, model):
         self.make = make
         self.model = model
-        self.year = 1991
+        self.year = 1987
 
     def print_info(self):
         return self.model
