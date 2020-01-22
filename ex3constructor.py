@@ -1,3 +1,5 @@
+# This one is a bit of a bodge job. It works quite well, but has no validation and isn't super elegant. I'll fix later tonight.
+
 class Person:
     def __init__(self, name, email, phone):
          self.name = name
@@ -27,7 +29,6 @@ class Person:
     
     def numOfGreets(self):
         return self.greetingCount
-
 
     def greetFriend(self, greetingCount, other_person):
         self.incrementgreeting()
